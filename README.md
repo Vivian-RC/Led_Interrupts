@@ -3,11 +3,11 @@
 
 Este projeto envolve a criação de um sistema de controle de LEDs e exibição de números em uma matriz utilizando a placa BitDogLab. O código foi desenvolvido em C utilizando a biblioteca **Pico SDK** para interagir com os pinos GPIO e controlar LEDs RGB e uma matriz de LEDs WS2812. Além disso, o projeto inclui botões físicos para incrementar e decrementar números exibidos na matriz.
 
-## 📹 Vídeo da Prática
+[## 📹 Vídeo da Prática
 Segue o link do vídeo dos resultados obtidos durante a simulação:
 
-🔗 **[Assista ao vídeo demonstrativo!](#)**
-
+🔗 **\[Assista ao vídeo demonstrativo!\]**
+(https://youtu.be/C3ShRFcqYAU)
 ---
 
 ## 📌 Enunciado do Projeto
@@ -31,7 +31,7 @@ O objetivo é criar um sistema que combine **hardware e software** para:
 ### **Arquivos Incluídos**
 - **`main.c`**: Código principal com implementação de funcionalidades.
 - **`ws2812.pio`**: Código PIO para controlar os LEDs WS2812.
-- **`diagram.json` e `wokwi.toml`**: Arquivos que configuram a simulação no Wokwi, facilitando o teste do projeto sem hardware físico.
+
 
 ---
 
@@ -40,8 +40,6 @@ O objetivo é criar um sistema que combine **hardware e software** para:
 ### **Pré-requisitos**
 ✅ **Placa BitDogLab** configurada e conectada.
 ✅ **Ambiente de desenvolvimento** configurado com **SDK do RP2040**.
-
-💡 **Alternativa**: Use a extensão do **Wokwi no VSCode** 👉 [Baixar Extensão Wokwi](https://marketplace.visualstudio.com/items?itemName=Wokwi.wokwi-vscode)
 
 ### **Passos para Clonar e Executar o Projeto**
 1️⃣ **Clone o repositório:**
